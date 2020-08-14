@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:whitesmoke;
+}
+ 
+ img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 32px;
+     height: auto;
+     width: 400px;
+     opacity: 0.8;
+ }
+
+ article {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 32px;
+     text-align: center;
+ }
+
+ img:hover {
+     width: 500px;
+     height: auto;
+
+ }
+ ul a {
+    color:white;
+}
+
+a:hover {
+     color:blue;
+
+}
+ 
+.navbar {
+     display: block;
+     background-color: black;
+     height: 20px;
+     width: auto;
+}
+
+.navbar a {
+     margin: 40px;
+     padding: 30px;
+
+}
+
+#links a {
+    margin: 20px;
+    padding: 40px;
+}
+
+.animation {
+    display: block;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: colorful;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorful {
+    0%{
+        background-color: red;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+button {
+    margin: 30px;
+    height: 60px;
+    width: 100px;
+    background-color: red;
+}
+
+button:hover {
+    animation-name: color;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes color {
+    100%{
+        opacity: 0.4;
+    }
+}
+
